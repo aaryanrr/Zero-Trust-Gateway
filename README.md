@@ -1,1 +1,1 @@
-# Template-Repo
+# Zero Trust Gateway

@@ -13,7 +13,8 @@
 
 ## **Contributing:** 📝
 
-### *If you would like to provide a fix for a problem you can do so by opening a Pull Request. Below are some points to consider:*
+### *If you would like to provide a fix for a problem you can do so by opening a Pull Request. Below are some points to
+consider:*
 
 <br>
 
@@ -22,17 +23,3 @@
 - *If your PR fixes an Issue, consider mentioning it with `#IssueNumber`.*
 - *Provide all the details in the PR template as applicable.*
 - *Before adding a new feature, please open an Issue for discussing it.*
-
----
-
-## **Setting up the Environment:** 💻
-
-### *This guides you through the setting up the Environment for working with the project.*
-
-<br>
-
-1. *Fork the repository.*
-2. *Clone it to your local machine to work with the Project.*
-3. **ADD ANY OTHERS STEPS IN HERE!**
-4. *Open the Project in the Editor of your choice.*
-5. *Congratulations, you are now ready to Contribute.* 🎉
