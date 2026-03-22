@@ -1,15 +1,21 @@
 version: '3.8'
 
 services:
-  waf-redis:
-    image: redis:7-alpine
+  redis:
+    image: redis:7.2-alpine
     container_name: waf-redis
     ports:
       - "6379:6379"
-    command: redis-server --save 60 1 --loglevel warning
+    # Enable Append Only File persistence for durability
+    command: redis-server --appendonly yes --loglevel warning
     volumes:
-      - redis_data:/data
-    restart: unless-stopped
+      - redis-data:/data
+    networks:
+      - waf-network
+
+networks:
+  waf-network:
+    driver: bridge
 
 volumes:
-  redis_data:
+  redis-data:
